@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>INAZUMA ELEVEN</title>
+</head>
+<body>
+    <img src="../static/images/Logo inazuma eleven.jpg" alt="INAZUMA ELEVEN" width="400">
+    {% for item in players %}
+        <p>
+           player's name: {{ item[0] }}<br>
+           player's position: {{ item[2] }}<br>
+           player's element: {{ item[3] }}
+        </p>
+        <img src="../static/images/{{item[0]}}.jpg" alt="{{item[0]}}" width="100">
+    {% endfor %}
+</body>
+</html>
