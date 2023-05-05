@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
     <title>INAZUMA ELEVEN</title>
+    <link rel="stylesheet" href="../static/css/styles.css" />
 </head>
 <body>
-    <img src="../static/images/Logo inazuma eleven.jpg" alt="INAZUMA ELEVEN" width="400">
+    <section class="immagine_1">
+    <img src="../static/images/Logo inazuma eleven.jpg" alt="INAZUMA ELEVEN" width="400"/>
+    </section>
     {% for item in players %}
-        <p>
+        <p class="statistiche">
            player's name: {{ item[0] }}<br>
            player's position: {{ item[2] }}<br>
            player's element: {{ item[3] }}
