@@ -5,9 +5,9 @@
     <link rel="stylesheet" href="../static/css/styles.css" />
 </head>
 <body>
-    <section class="immagine_1">
+    <div class="immagine_1">
     <img src="../static/images/Logo inazuma eleven.jpg" alt="INAZUMA ELEVEN" width="400"/>
-    </section>
+    </div>
     {% for item in players %}
         <p class="statistiche">
            player's name: {{ item[0] }}<br>
@@ -16,5 +16,11 @@
         </p>
         <img src="../static/images/{{item[0]}}.jpg" alt="{{item[0]}}" width="100">
     {% endfor %}
+    <div style="position: relative;">
+        <img src="../static/images/campo_da_calcio.jpg" style="position: absolute; top: 0; left: 0; width: 100%;">
+        <img src="../static/images/Mark Evans.jpg" style="position: absolute; top: 50px; left: 50px;">
+    </div>
+
+
 </body>
 </html>
