@@ -10,3 +10,19 @@
     flex-direction: row;
     justify-content: center;
 }
+
+.Rosa_dei_calciatori {
+    position: relative;
+}
+
+.campo {
+    position: absolute;
+
+}
+
+.portiere {
+    position: absolute;
+    left: 534px;
+    top: 2133px;
+    width: 100px;
+}
