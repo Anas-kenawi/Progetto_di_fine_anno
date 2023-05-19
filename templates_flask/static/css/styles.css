@@ -19,10 +19,6 @@
     position: absolute;
 
 }
-
-.portiere {
-    position: absolute;
-    left: 528px;
-    top: 2127px;
-    width: 150px;
+.position-player {
+    position: absolute !important;
 }
