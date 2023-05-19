@@ -21,4 +21,5 @@
 }
 .position-player {
     position: absolute !important;
+    height: 200px;
 }
