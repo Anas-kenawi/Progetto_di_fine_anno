@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <c class="contenitore_1">
+    <img src="../static/images/Axel_sito.jpg" class="foto_1">
+    <p class="titolo_1">AXEL BLAZE</p>
+    <link rel="stylesheet" href="../static/css/Axel.css" />
+    {% for item in statistiche_1 %}
+        <a class="dati">
+            Squadra: {{ item[0] }}<br>
+            Posizione: {{ item[1] }}<br>
+            Elemento: {{ item[2] }}<br>
+            Tiro: {{ item[3] }}<br>
+            Fisico: {{ item[4] }}<br>
+            Controllo: {{ item[5] }}<br>
+            Difesa: {{ item[6] }}<br>
+            Velocità: {{ item[7] }}<br>
+            Stamina: {{ item[8] }}<br>
+            Determinazione: {{ item[9] }}<br>
+            Prima mossa: {{ item[10] }}<br>
+            Seconda mossa: {{ item[11] }}<br>
+            Terza mossa: {{ item[12] }}<br>
+            Quarta mossa:{{ item[13] }}<br>
+            
+        </a>
+    {% endfor %}
+    </ul>
+    </c>
+</head>
+
+<body>
+    <h1 class="capotesto">Biografia</h1>
+    <g class="biografia">
+        Axel Blaze (豪炎寺 修也, Gōenji Shūya) è uno dei personaggi principali del gioco, anime e manga di Inazuma Eleven.<br>
+        È l'ex cannoniere della Kirkwood, in seguito quello della Raimon, e più tardi ancora quello dell'Inazuma Japan. <br>
+        Oltre ad essere l'attaccante più forte della Raimon, Axel Blaze si può anche considerare come un simbolo della squadra,<br>
+        dopo lo stesso Mark. Indossa la maglia numero 10 ed è soprannominato "Bomber di Fuoco".<br>
+        In Inazuma Eleven GO sarà il Grande Imperatore del Quinto Settore e l'allenatore del Monte Olimpo, ma si farà chiamare Alex Zabel (イシドシュウジ, Ishido Shuuji).<br>
+        Dopo la vittoria della Raimon (GO) riprenderà la sua vera identità.
+    </g>
+</body>
