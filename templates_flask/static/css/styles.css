@@ -23,3 +23,7 @@
     position: absolute !important;
     height: 200px;
 }
+
+body {
+    background-color: green;
+}

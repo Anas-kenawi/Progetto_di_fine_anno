@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titolo{
+    font-size: 450%;
+}
+
+.squadra{
+    height: 250px;
+}
+
+body{
+    background-color: blue;
+}
+
+titolo_1{
+    font-size: xx-large;
+}

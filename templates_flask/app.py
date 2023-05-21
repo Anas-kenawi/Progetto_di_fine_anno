@@ -86,4 +86,8 @@ def centrocampista_1():
       statistiche_10 = mycursor.fetchall()
       return render_template('Jude.html', statistiche_10=statistiche_10)
 
+@app.route("/Inazuma")
+def Inazuma():
+      return render_template('Inazuma.html')
+
 
