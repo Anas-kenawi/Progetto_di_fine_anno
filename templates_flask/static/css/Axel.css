@@ -12,18 +12,18 @@
 .titolo_1{
     font: large;
     font-size: x-large;
-    color: white;
+    color: rgb(250, 243, 243);
 }
 
 .biografia{
     border-left: 150px;
-    color: white;
+    color: rgb(248, 248, 248);
 }
 
 .capotesto{
     font-size: x-large;
     font: large;
-    color: white;
+    color: rgb(248, 245, 245);
 }
 
 body{
@@ -31,5 +31,5 @@ body{
 }
 
 .dati{
-    color: white;
+    color: rgb(247, 242, 242);
 }

@@ -1,9 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<link rel="stylesheet" href="../static/css/Tim.css">
 
 <head>
-    <a>
-        Statistica 1: {{statistiche_7[0]}}
+    <a class="contenitore">
+        <img src="../static/images/Tim_sito.png">
+        <h1 class="nome">TIM SAUNDERS</h1>
+        {% for item in statistiche_7 %}
+        <b class="dati">
+            Squadra: {{ item[0] }}<br>
+            Posizione: {{ item[1] }}<br>
+            Elemento: {{ item[2] }}<br>
+            Tiro: {{ item[3] }}<br>
+            Fisico: {{ item[4] }}<br>
+            Controllo: {{ item[5] }}<br>
+            Difesa: {{ item[6] }}<br>
+            Velocità: {{ item[7] }}<br>
+            Stamina: {{ item[8] }}<br>
+            Determinazione: {{ item[9] }}<br>
+            Prima mossa: {{ item[10] }}<br>
+            Seconda mossa: {{ item[11] }}<br>
+            Terza mossa: {{ item[12] }}<br>
+            Quarta mossa:{{ item[13] }}<br>
+            
+        </b>
+    {% endfor %}
+    </ul>
     </a>
 </head>
+
+<body>
+    <d class="capotesto">BIOGRAFIA</d><br>
+    <d1 class="biografia">
+      Tim Saunders (少林寺歩 Ayumu Shōrinji), soprannominato Timmy (Shōrin 少林) è un centrocampista della Raimon e dei Dark Emperors.<br>
+      Timmy è il giocatore più basso della Raimon.<br> 
+      Ha piccoli occhi neri a croce.<br> 
+      Ha lunghi capelli marroni raccolti in una coda di cavallo e un piccolo ciuffo sulla fronte dello stesso colore.<br> 
+      Il resto della testa è pelata. Indossa sempre la divisa della squadra.<br>
+      Timmy è piccolo di statura, ma molto abile e determinato.<br> 
+      È molto bravo nelle arti marziali, che per lui saranno la base per imparare a giocare a calcio.<br> 
+      Rispetta molto il suo capitano, Mark, e lo sostiene sempre.<br> 
+      È un elemento positivo per la squadra, perchè contrinuisce a tenere alto il morale.<br> 
+      Sotto l'influsso della Pietra di Alius diventa più arrogante e deciso,<br> 
+      tornando poi normale una volta libero dall'energia del meteorite.<br>
+
+    </d1>
+</body>

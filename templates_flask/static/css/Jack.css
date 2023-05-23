@@ -4,3 +4,28 @@
     justify-content: center;
     align-items: center;
 }
+
+.container img{
+    width: 200px;
+}
+
+.titolo{
+    color: white;
+}
+
+.dati{
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+.capotesto{
+    color: white;
+}
+
+.biografia{
+    color: white;
+    font-size: medium;
+}

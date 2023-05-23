@@ -4,8 +4,43 @@
 
 <head>
     <c class="container">
-        <img src="../static/images/Kabeyama.jpg">
-        <a class="titolo">Jack Wallside</a>
+        <img src="../static/images/Kabeyama.png">
+        <a class="titolo">JACK WALLSIDE</a>
+        {% for item in statistiche_8 %}
+            <a class="dati">
+                Squadra: {{ item[0] }}<br>
+                Posizione: {{ item[1] }}<br>
+                Elemento: {{ item[2] }}<br>
+                Tiro: {{ item[3] }}<br>
+                Fisico: {{ item[4] }}<br>
+                Controllo: {{ item[5] }}<br>
+                Difesa: {{ item[6] }}<br>
+                Velocità: {{ item[7] }}<br>
+                Stamina: {{ item[8] }}<br>
+                Determinazione: {{ item[9] }}<br>
+                Prima mossa: {{ item[10] }}<br>
+                Seconda mossa: {{ item[11] }}<br>
+                Terza mossa: {{ item[12] }}<br>
+                Quarta mossa:{{ item[13] }}<br>
+                
+            </a>
+        {% endfor %}
+        </ul>
     </c>
 
 </head>
+
+<body>
+    <h1 class="capotesto">BIOGRAFIA</h1>
+    <h2 class="biografia">
+        Jack Wallside (壁山塀吾郎 Kabeyama Heigorō) è un difensore della Raimon e dell'Inazuma Japan.<br> 
+Nella serie GO sarà un giocatore della Lega Professionisti.<br>
+Jack è molto alto e molto robusto.<br> 
+È il più grosso della squadra.<br> 
+Ha capelli gonfi verdi e piccoli occhi neri.<br> 
+Ha una sorta di pizzetto verde e labbra carnose.<br> 
+Indossa sempre la divisa della squadra.<br>
+Da adulto ha le basette fino in basso e i capelli più folti a formare una sfera,<br> 
+la pelle più abbronzata e indossa solitamente un completo da esploratore.<br>
+    </h2>    
+</body>
