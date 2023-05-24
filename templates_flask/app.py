@@ -34,7 +34,7 @@ def attaccante_1():
 
 @app.route("/Kevin")
 def attaccante_2():
-      mycursor.execute("SELECT Team,Position,Element,Kick,Body,Control,Guard,Speed,Stamina,Guts,1st_Move,2nd_Move,3rd_Move,4th_Move FROM INAZUMA_ELEVEN.players WHERE Name = 'Kevin Dragonfly'")
+      mycursor.execute("SELECT Team,Position,Element,h0Kick,Body,Control,Guard,Speed,Stamina,Guts,1st_Move,2nd_Move,3rd_Move,4th_Move FROM INAZUMA_ELEVEN.players WHERE Name = 'Kevin Dragonfly'")
       statistiche_2 = mycursor.fetchall()
       return render_template('Kevin.html', statistiche_2=statistiche_2)
 

@@ -1,0 +1,33 @@
+.titolo {
+    font-size: xx-large;
+    color: white;
+
+}
+
+.contenitore img {
+    width: 200px;
+}
+
+.contenitore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: black;
+}
+
+.capotesto{
+    color: white;
+}
+
+.biografia{
+    color: white;
+    font-size: medium;
+}
+
+.dati{
+    color: white;
+}

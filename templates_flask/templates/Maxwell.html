@@ -1,9 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="../static/css/Maxwell.css">
 
 
 <head>
-    <a>
-        Statistica 1: {{statistiche_3[0]}}
-    </a>
+   <a class="contenitore">
+    <img src="../static/images/Maxwell_sito.png">
+    <h1 class="nome">MAXWELL CARSON</h1>
+    {% for item in statistiche_3 %}
+    <b class="dati">
+        Squadra: {{ item[0] }}<br>
+        Posizione: {{ item[1] }}<br>
+        Elemento: {{ item[2] }}<br>
+        Tiro: {{ item[3] }}<br>
+        Fisico: {{ item[4] }}<br>
+        Controllo: {{ item[5] }}<br>
+        Difesa: {{ item[6] }}<br>
+        Velocità: {{ item[7] }}<br>
+        Stamina: {{ item[8] }}<br>
+        Determinazione: {{ item[9] }}<br>
+        Prima mossa: {{ item[10] }}<br>
+        Seconda mossa: {{ item[11] }}<br>
+        Terza mossa: {{ item[12] }}<br>
+        Quarta mossa:{{ item[13] }}<br>
+        
+    </b>
+    {% endfor %}
+   </a>
 </head>
+
+<body>
+    <c class="conteniore_1">
+        <h2 class="capotesto">BIOGRAFIA</h2>
+        <h3 class="biografia">Maxwell Carson (松野 空介 Matsuno Kūsuke) soprannominato Max (マック Makkusu) è uno dei centrocampisti della Raimon.<br> 
+            Debutta nell' episodio 1.<br> 
+            È stato uno dei centrocampisti della Dark Emperors.<br> 
+            Nella terza stagione fa il provino per entrare nella Inazuma ma alla fine non viene scelto.<br>
+            Max è un ragazzo piuttosto basso di pelle chiara.<br> 
+            Ha lunghi e mossi capelli marroni, legati in una coda.<br> 
+            Ha degli occhi tondeggianti neri e un piccolo naso arancione.<br> 
+            Indossa sempre un cappello a strisce azzurre e rosa, con due finte trecce laterali.<br>
+            Max è un ragazzo gentile e simpatico.<br> 
+            È molto attivo e sportivo, non si scoraggia mai ed è molto ottimista.<br> 
+            Riesce bene in tutti gli sport che pratica.</h3>
+    </c>
+</body>

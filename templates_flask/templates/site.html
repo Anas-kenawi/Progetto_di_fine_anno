@@ -9,14 +9,14 @@
 <body>
     <div class="immagine_1">
         <a href="https://5000-anaskenawi-progettodifi-myv4kn04pe5.ws-eu97.gitpod.io/Inazuma">
-        <img src="../static/images/Logo inazuma eleven.jpg" alt="INAZUMA ELEVEN" width="400" />
+        <img src="../static/images/Logo_inazuma_eleven.png" alt="INAZUMA ELEVEN" width="400" />
         </a>
     </div>
     <div class="Rosa_dei_calciatori" >
         <img src="../static/images/campo_da_calcio.jpg" class="campo">
         {% for item in players %}
         <a href="{{item[19]}}">
-        <img src="../static/images/{{item[0]}}.jpg" alt= "{{item[0]}}" width="165" class="position-player"
+        <img src="../static/images/{{item[0]}}.png" alt= "{{item[0]}}" width="165" class="position-player"
         style="left:{{item[17]}}px; top:{{item[18]}}px;" />
         </a>
         {% endfor %}

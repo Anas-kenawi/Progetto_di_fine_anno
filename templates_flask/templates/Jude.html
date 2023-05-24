@@ -1,9 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="../static/css/Jude.css">
 
 
 <head>
-    <a>
-        Statistica 1: {{statistiche_10[0]}}
-    </a>
+     <a class="contenitore">
+        <img src="../static/images/Jude_sito.png">
+        <h1 class="nome">JUDE SHARP</h1>
+        {% for item in statistiche_10 %}
+        <b class="dati">
+            Squadra: {{ item[0] }}<br>
+            Posizione: {{ item[1] }}<br>
+            Elemento: {{ item[2] }}<br>
+            Tiro: {{ item[3] }}<br>
+            Fisico: {{ item[4] }}<br>
+            Controllo: {{ item[5] }}<br>
+            Difesa: {{ item[6] }}<br>
+            Velocità: {{ item[7] }}<br>
+            Stamina: {{ item[8] }}<br>
+            Determinazione: {{ item[9] }}<br>
+            Prima mossa: {{ item[10] }}<br>
+            Seconda mossa: {{ item[11] }}<br>
+            Terza mossa: {{ item[12] }}<br>
+            Quarta mossa:{{ item[13] }}<br>
+        </b>
+        {% endfor %}
+ </a>
 </head>
+
+<body>
+    <h3 class="capotesto">BIOGRAFIA</h3>
+    <h4 class="biografia">Jude Sharp (鬼道有人 Kidō Yūto) è l'ex capitano della Royal Academy con la maglia N°10,<br> 
+        apparso per la prima volta nella prima serie.<br> 
+        In seguito centrocampista della Raimon e della Inazuma Japan coll numero 14.<br> 
+        Nella serie GO, 10 anni dopo il Football Frontier International,<br> 
+        diventerà allenatore della Royal Academy (GO) e, temporanemente,<br> 
+        della Raimon (GO). Sarà in seguito allenatore della Raimon (Chrono Stone) e<br> 
+        dell'El Dorado Team 01.<br>
+        L'infanzia di Jude e di sua sorella Celia è stata segnata dalla morte dei loro genitori,<br> 
+        che sono deceduti in un incidente aereo.<br> 
+        L'unico ricordo che rimane a Jude di suo padre è una rivista calcistica,<br> 
+        proprio per questo ricordo jude promise che sarebbe diventato un calciatore di successo.<br> 
+        I due fratelli trascorreranno parte della loro vita in un orfanotrofio.<br> 
+        Proprio qui Ray Dark scoprì il talento calcistico di Jude e<br> 
+        lo iniziò ad allenare sin da piccolo affinché diventasse un bravo giocatore ed esprimesse il calcio che lui voleva;<br> 
+        anche per questo Ray Dark lo definirà spesso il "suo capolavoro".<br> 
+        Jude e Celia saranno adottati da famiglie differenti ma si ritroveranno<br> 
+        quando Jude si trasferirà alla Raimon.<br>
+        
+        </h4>
+</body>
