@@ -1,10 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="../static/css/Sam.css">
 
 
 
 <head>
-    <a>
-        Statistica 1: {{statistiche_5[0]}}
-    </a>
+    <div class="contenitore">
+        <img src="../static/images/Sam_sito.png">
+        <a class="nome">SAM KINCAID</a>
+        {% for item in statistiche_5 %}
+        <a class="dati">
+            Squadra: {{ item[0] }}<br>
+            Posizione: {{ item[1] }}<br>
+            Elemento: {{ item[2] }}<br>
+            Tiro: {{ item[3] }}<br>
+            Fisico: {{ item[4] }}<br>
+            Controllo: {{ item[5] }}<br>
+            Difesa: {{ item[6] }}<br>
+            Velocità: {{ item[7] }}<br>
+            Stamina: {{ item[8] }}<br>
+            Determinazione: {{ item[9] }}<br>
+            Prima mossa: {{ item[10] }}<br>
+            Seconda mossa: {{ item[11] }}<br>
+            Terza mossa: {{ item[12] }}<br>
+            Quarta mossa:{{ item[13] }}<br>
+            
+        </a>
+    {% endfor %}
+    </div>
 </head>
+
+<body>
+    <h1 class="capotesto">BIOGRFIA</h1>
+    <h2 class="biografia">Sam Kincaid (宍戸佐吉 Shishido Sakichi) è un centrocampista della Raimon e dei Dark Emperors.<BR>
+        Sam è un ragazzo alto e magro. Ha dei capelli afro arancioni che nascondono i suoi occhi.<br> 
+        Ha un grande naso arancione accompagnato da qualche lentiggine.<br> 
+        Quando è nei Dark Emperors i suoi capelli sono un po' più lunghi.<br>
+        Sam è un ragazzo gentile e simpatico, a volte forse un po' fifone.<br> 
+        Ha un buon rapporto con tutti i suoi compagni e ama molto il calcio.<br> 
+        Sotto l'influssio della Pietra di Alius diventa più deciso e arrogante,<br> 
+        tornando poi normale una volta liberato da esso.<br>
+    </h2>
+</body>
