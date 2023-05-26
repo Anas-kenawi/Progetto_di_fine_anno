@@ -3,12 +3,12 @@
 
 
 <head>
-    <c class="contenitore_1">
+    <c class="contenitore_1 tutto">
         <img src="../static/images/Mark_sito.png" class="foto_1">
         <p class="titolo_1">MARK EVANS</p>
         <link rel="stylesheet" href="../static/css/Mark.css" />
         {% for item in statistiche %}
-            <a class="dati">
+            <a class="dati overlay">
                 Squadra: {{ item[0] }}<br>
                 Posizione: {{ item[1] }}<br>
                 Elemento: {{ item[2] }}<br>

@@ -44,3 +44,27 @@ body{
     color: white;
     font-size: medium;
 }
+
+.container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Opacità dello sfondo */
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0; /* La scritta sarà inizialmente nascosta */
+    transition: opacity 0.3s ease;
+  }
+
+  .tutto:hover .overlay {
+    opacity: 1; /* La scritta apparirà quando passi il mouse sopra */
+  }
